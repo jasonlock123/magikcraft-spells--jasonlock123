@@ -1,5 +1,5 @@
 const magik = magikcraft.io;
 
 function sowrd() {
-    magik.declaro('dimond sowrd');
+    magik.feet('dimond sowrd');
 }
