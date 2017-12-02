@@ -1,5 +1,5 @@
 const magik = magikcraft.io;
 
-function Aglow(name) {
+function Ainvisable(name) {
     magik.radiatum(name);
 }
