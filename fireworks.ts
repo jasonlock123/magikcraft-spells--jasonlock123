@@ -6,3 +6,4 @@ function fireworks() {
         magik.stella(there);
     }
     magik.doNTimes(firework, 5);
+}
