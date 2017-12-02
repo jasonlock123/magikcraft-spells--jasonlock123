@@ -1,5 +1,5 @@
 const magik = magikcraft.io;
 
-function ignite(playerName) {
+function burn(playerName) {
     magik.incendium(playerName);
 }
