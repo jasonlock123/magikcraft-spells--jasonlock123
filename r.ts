@@ -6,12 +6,12 @@ function r(t = 5) {
     function shield() {
         n --;
         const location = magik.hic();
-        const nearbyEntities = location.getWourld().getNearbyEntities(location, 8, 8, 8);
-        nearEntities.forEach(entity => toss(entity));
+        const nearbyEntities = location.getWorld().getNearbyEntities(location, 8, 8, 8);
+        nearbyEntities.forEach(entity => toss(entity));
         if (n>0) {
             magik.setTimeout(shield, 300)
         } else {
-            magik,dixit('shield exhausted!');
+            magik.dixit('shield exhausted!');
         }
     }    
 }
@@ -20,6 +20,6 @@ function toss(entity){
     if (entity.getName() == magik.getSender().getName()) { return;
     }
     var Vector = Java.type('org.bukkit.util.Vector');
-    entity.setVelocity(new vector(2,2,2));
+    entity.setVelocity(new Vector(2,2,2));
 }
 
