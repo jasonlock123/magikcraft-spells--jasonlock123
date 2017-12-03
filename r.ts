@@ -15,4 +15,11 @@ function r(t = 5) {
         }
     }    
 }
-	
+
+function toss(entity){
+    if (entity.getName() == magik.getSender().getName()) { return;
+    }
+    var Vector = Java.type('org.bukkit.util.Vector');
+    entity.setVelocity(new vector(2,2,2));
+}
+
