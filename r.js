@@ -3,7 +3,7 @@ const magik = magikcraft.io;
 function r(t = 5) {
     const times = t * 1000 / 300;  // n seconds, every 300ms
     let n = times;
-    magik.setTimeout(shield, 300);
+    magik.setTimeout(shield, 3000);
     magik.dixit('Magical shield!')
     function shield() {
         n --;
